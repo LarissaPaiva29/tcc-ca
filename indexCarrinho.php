@@ -33,7 +33,7 @@ foreach($itens as $key => $value){
 //adicionar carrinho
 if(isset($_get['adicionar']))
 {
-$idProduto = (int) $_get['adicioar';]
+$idProduto = (int) $_get['adicionar'];
 if(isset($itens[$idProduto]))
 {
     if(isset($SESSION['carrinho'][$idProduto]))
